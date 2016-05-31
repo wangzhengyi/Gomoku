@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:gomoku="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="watch.com.wuziqi.MainActivity">
+
+    <watch.com.wuziqi.view.GomokuPanel
+        android:id="@+id/id_fir_panel"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        gomoku:gomoku_black_pic="@drawable/stone_b1"
+        gomoku:gomoku_white_pic="@drawable/stone_w2"
+        gomoku:gomoku_board_color="#4b814c"/>
+</RelativeLayout>
