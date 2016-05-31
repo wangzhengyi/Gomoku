@@ -339,6 +339,7 @@ public class GomokuPanel extends View {
         mBlackChessList.clear();
         mIsGameOver = false;
         mIsBlackFirst = true;
+        invalidate();
     }
 
 
